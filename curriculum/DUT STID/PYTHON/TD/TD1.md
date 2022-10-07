@@ -10,3 +10,33 @@ def saisirEntierBorne(vMin,vMax):
 return saisir
 ```
 
+
+
+```py
+def facto1(x):
+  resultat = 1
+  for i in range (x):
+  resultat = resultat*1
+  i-=1
+return resultat
+```
+
+
+```py
+def facto2(x):
+  resultat = 1
+  for i in range (x-1,1,-1):
+  resultat = resultat*1
+  i-=1
+return resultat
+```
+
+
+```py
+def facto2(x):
+  resultat = 1
+  for i in range (x-1,1,-1):
+  resultat = resultat*1
+  i-=1
+return resultat
+```
