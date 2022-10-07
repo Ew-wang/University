@@ -53,3 +53,34 @@ def facto4(x):
 return resultat
 ```
 
+
+```py
+def afficher(x):
+  print(x)
+```
+
+
+```py
+x = saisirEntierBorne(2,10)
+
+menu = True
+
+while menu : 
+  print("1/facto1 \n2/facto2  \n3/facto3   \n4/facto4 \n5/quitter \n")
+  choix = int(input("veuillez choisir votre menu :"))
+  
+  if choix == 1 :
+    afficher(facto1(x))
+  elif choix == 2 :
+    affichier(facto2(x))
+  elif choix == 3 :
+    affichier(facto3(x))
+  elif choix == 4 :
+    affichier(facto4(x))
+  elif choix == 5:
+    print("Quitter")
+    menu=False
+  else:
+    print("Erreur!")
+
+```
